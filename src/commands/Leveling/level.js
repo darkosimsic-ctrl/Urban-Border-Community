@@ -19,7 +19,7 @@ export default {
                 .setName('setup')
                 .setDescription('Set up the leveling system — this also enables it')
                 .addChannelOption((option) =>
-                    option
+                    optio
                         .setName('channel')
                         .setDescription('Channel to send level-up notifications in')
                         .addChannelTypes(ChannelType.GuildText)
